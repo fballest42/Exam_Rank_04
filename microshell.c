@@ -36,7 +36,7 @@ void    ft_cd(char **argv)
         write(2, "error: cd: bad arguments\n", ft_strlen("error: cd: bad arguments\n"));
     }
     else if (chdir(argv[1]))
-        ft_msg("error: cd: cannot change directory to \n", argv[1]);
+        ft_msg("error: cd: cannot change directory to ", argv[1]);
 }
 
 int main(int argc, char **argv, char **env)
