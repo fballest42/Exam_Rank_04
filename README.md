@@ -9,10 +9,10 @@
 ### To execute it you must;
 #### · Open your terminal.
 #### · Compile the project with "gcc microshell.c -o microshell"
-#### · Execute the commands with the complete route for each command, for example:
-####      ./microshell /bin/ls "|" /usr/bin/grep microshell ";" /bin/echo i love my microshell
-####      This command must return:
-####        microshell
-####        i love my microshell
+#### · Execute the commands with the complete route for each command, for example: 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./microshell /bin/ls "|" /usr/bin/grep microshell ";" /bin/echo i love my microshell
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This command must return:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;microshell
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i love my microshell
 
 ### Graded: [![fballest's 42 Exam Rank 04 Score](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/project/2504175)](https://github.com/JaeSeoKim/badge42)
