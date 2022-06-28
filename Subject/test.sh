@@ -11,7 +11,7 @@ test_line () {
 		printf "\e[0;31mLEAKS\n\e[0m"
 	fi
 	pid=$( pgrep microshell )
-	printf "\e[0;31m"
+	printf "\e[0;92m"
 	lsof -c microshell | grep $pid | grep -v cwd | grep -v txt | grep -v 0r | grep -v 1w | grep -v 2u | grep microshel
 	printf "\e[0m"
 	kill -9 $pid
@@ -20,7 +20,7 @@ test_line () {
 }
 
 printf "\e[1;32mCompile\n"
-gcc -g -Wall -Werror -Wextra -DTEST_SH microshell.c -o microshell
+gcc -g -Wall -Werror -Wextra -DTEST_SH orig_microshell.c -o microshell
 printf "\e[1;36mTest\n\e[0m"
 rm -f out.res leaks.res out
 test_line /bin/ls
